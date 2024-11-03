@@ -8,7 +8,8 @@ Clustering with K-Means
 K-Means clustering is a popular method used to partition data into distinct groups based on feature similarities. In this analysis, we have explored the performance of K-Means clustering using both the original data and the PCA-transformed data.
 
 Optimal Number of Clusters (k):<br>
-![Screenshot 2024-11-03 112126](https://github.com/user-attachments/assets/50fa3ea1-4132-4d37-b9d1-04a478a20026)
+![Screenshot 2024-11-03 112126](https://github.com/user-attachments/assets/50fa3ea1-4132-4d37-b9d1-04a478a20026)![Screenshot 2024-11-03 112230](https://github.com/user-attachments/assets/b792534b-2c99-4669-a1cf-9afc69783a90)
+
 
 For the original data, the best value for k was determined to be 4.
 For the PCA data, the optimal k was found to be 3.
