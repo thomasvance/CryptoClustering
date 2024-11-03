@@ -8,7 +8,7 @@ Clustering with K-Means
 K-Means clustering is a popular method used to partition data into distinct groups based on feature similarities. In this analysis, we have explored the performance of K-Means clustering using both the original data and the PCA-transformed data.
 
 Optimal Number of Clusters (k):<br>
-Original elbow curve:
+Original elbow curve:<br>
 <br>
 ![Screenshot 2024-11-03 112126](https://github.com/user-attachments/assets/50fa3ea1-4132-4d37-b9d1-04a478a20026)<br>
 Original Clustering:<br>
@@ -19,7 +19,8 @@ Original Clustering:<br>
 Analysis of Having the Same Optimal k Value
 Consistency in Data Structure:
 
-The fact that both datasets (original and PCA-transformed) yield the same k value indicates that the inherent structure and distribution of the data remain consistent even after dimensionality reduction. This suggests that the most significant patterns or clusters in the data are preserved, allowing K-Means to effectively identify the same number of clusters in both scenarios.
+The fact that both datasets (original and PCA-transformed) yield the same k value indicates that the inherent structure and distribution of the data remain consistent even after dimensionality reduction. This suggests that the most significant patterns or clusters in the data are preserved, allowing K-Means to effectively identify the same number of clusters in both scenarios.<br>
+
 Effectiveness of PCA:
 
 Since PCA aims to reduce dimensionality while retaining as much variance as possible, achieving the same optimal k means that the reduced dimensions (PCA1 and PCA2) capture enough information from the original features. It indicates that PCA is effective in simplifying the dataset without losing critical information that contributes to the clustering.
