@@ -7,7 +7,7 @@ The data consists of two main sources: PCA (Principal Component Analysis) transf
 Clustering with K-Means
 K-Means clustering is a popular method used to partition data into distinct groups based on feature similarities. In this analysis, we have explored the performance of K-Means clustering using both the original data and the PCA-transformed data.
 
-Optimal Number of Clusters (k):
+Optimal Number of Clusters (k):<br>
 ![Screenshot 2024-11-03 112126](https://github.com/user-attachments/assets/50fa3ea1-4132-4d37-b9d1-04a478a20026)
 
 For the original data, the best value for k was determined to be 4.
