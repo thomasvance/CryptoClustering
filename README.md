@@ -8,6 +8,7 @@ Clustering with K-Means
 K-Means clustering is a popular method used to partition data into distinct groups based on feature similarities. In this analysis, we have explored the performance of K-Means clustering using both the original data and the PCA-transformed data.
 
 Optimal Number of Clusters (k):<br>
+<br>
 Original elbow curve:<br>
 <br>
 ![Screenshot 2024-11-03 112126](https://github.com/user-attachments/assets/50fa3ea1-4132-4d37-b9d1-04a478a20026)<br>
@@ -36,6 +37,14 @@ Cluster Interpretability:<br>
 
 With both datasets pointing to the same number of clusters, you can interpret the clusters similarly across both analyses. This consistency allows for a more straightforward interpretation of the clusters, making it easier to derive insights about the different segments in your cryptocurrency data, irrespective of whether you consider the original features or the PCA components.<br>
 Impact on Performance:<br>
+
+Combined elbow Curve: <br>
+<br>
+![Screenshot 2024-11-03 112351](https://github.com/user-attachments/assets/e809383a-162e-400e-a973-85f9922eebff)<br>
+Combined Clustering: <br>
+
+![Screenshot 2024-11-03 112410](https://github.com/user-attachments/assets/e865980f-1385-4e98-a4ea-72bef453d7e4)<br>
+
 
 While you maintain the same number of clusters, using PCA might enhance computational efficiency, especially with larger datasets. By reducing dimensionality, K-Means may converge faster due to fewer dimensions being processed, potentially leading to quicker analysis and results while still producing meaningful clusters.<br>
 Validation of Clustering Approach:<br>
