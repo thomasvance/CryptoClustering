@@ -21,17 +21,24 @@ Consistency in Data Structure:
 
 The fact that both datasets (original and PCA-transformed) yield the same k value indicates that the inherent structure and distribution of the data remain consistent even after dimensionality reduction. This suggests that the most significant patterns or clusters in the data are preserved, allowing K-Means to effectively identify the same number of clusters in both scenarios.<br>
 
-Effectiveness of PCA:
+Effectiveness of PCA:<br>
+PCA Elbow Curve: <br>
+![Screenshot 2024-11-03 112304](https://github.com/user-attachments/assets/c74ec3bb-2072-4e72-97a7-42504d4fa042)<br>
 
-Since PCA aims to reduce dimensionality while retaining as much variance as possible, achieving the same optimal k means that the reduced dimensions (PCA1 and PCA2) capture enough information from the original features. It indicates that PCA is effective in simplifying the dataset without losing critical information that contributes to the clustering.
-Cluster Interpretability:
+PCA Clusters:<br>
+<br>
+![Screenshot 2024-11-03 113529](https://github.com/user-attachments/assets/1d2ca152-b399-445d-9772-53e7fc674eb5)<br>
 
-With both datasets pointing to the same number of clusters, you can interpret the clusters similarly across both analyses. This consistency allows for a more straightforward interpretation of the clusters, making it easier to derive insights about the different segments in your cryptocurrency data, irrespective of whether you consider the original features or the PCA components.
-Impact on Performance:
 
-While you maintain the same number of clusters, using PCA might enhance computational efficiency, especially with larger datasets. By reducing dimensionality, K-Means may converge faster due to fewer dimensions being processed, potentially leading to quicker analysis and results while still producing meaningful clusters.
-Validation of Clustering Approach:
+Since PCA aims to reduce dimensionality while retaining as much variance as possible, achieving the same optimal k means that the reduced dimensions (PCA1 and PCA2) capture enough information from the original features. It indicates that PCA is effective in simplifying the dataset without losing critical information that contributes to the clustering.<br>
+Cluster Interpretability:<br>
+
+With both datasets pointing to the same number of clusters, you can interpret the clusters similarly across both analyses. This consistency allows for a more straightforward interpretation of the clusters, making it easier to derive insights about the different segments in your cryptocurrency data, irrespective of whether you consider the original features or the PCA components.<br>
+Impact on Performance:<br>
+
+While you maintain the same number of clusters, using PCA might enhance computational efficiency, especially with larger datasets. By reducing dimensionality, K-Means may converge faster due to fewer dimensions being processed, potentially leading to quicker analysis and results while still producing meaningful clusters.<br>
+Validation of Clustering Approach:<br>
 
 The agreement in k values serves as a form of validation for your clustering approach. If both the raw data and transformed data suggest the same clustering structure, it strengthens the confidence in your results, implying that your findings are robust across different methods of data representation.
-Conclusion
+Conclusion<br>
 In summary, the fact that both analyses lead to an optimal k of 4 suggests that your clustering results are stable and consistent, indicating that the structure of the data is well-preserved through PCA. This scenario allows you to confidently analyze and interpret the clusters identified in your cryptocurrency dataset, whether using the original features or the PCA-transformed features.
