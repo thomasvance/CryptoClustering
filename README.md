@@ -22,6 +22,7 @@ Consistency in Data Structure:
 The fact that both datasets (original and PCA-transformed) yield the same k value indicates that the inherent structure and distribution of the data remain consistent even after dimensionality reduction. This suggests that the most significant patterns or clusters in the data are preserved, allowing K-Means to effectively identify the same number of clusters in both scenarios.<br>
 
 Effectiveness of PCA:<br>
+<br>
 PCA Elbow Curve: <br>
 ![Screenshot 2024-11-03 112304](https://github.com/user-attachments/assets/c74ec3bb-2072-4e72-97a7-42504d4fa042)<br>
 
